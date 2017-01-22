@@ -18,3 +18,9 @@
 2017-01-22 17:17:50,340 INFO  [Log] Incorrect login or password. , PASS 
 2017-01-22 17:19:59,482 INFO  [Log] Trying to login using incorrect password 
 2017-01-22 17:20:04,597 INFO  [Log] Incorrect password. , PASS 
+2017-01-22 17:50:32,758 INFO  [Log] Trying to login using incorrect password 
+2017-01-22 17:50:40,155 INFO  [Log] Login successfully 
+2017-01-22 17:50:40,688 INFO  [Log] Log out successfully 
+2017-01-22 17:52:09,675 INFO  [Log] Log in - log out check  
+2017-01-22 17:52:16,960 INFO  [Log] Login successfully, PASS 
+2017-01-22 17:52:32,745 INFO  [Log] Log out successfully, PASS 

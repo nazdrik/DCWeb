@@ -1,24 +1,20 @@
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.core.Is.is;
-import static org.hamcrest.core.IsEqual.equalTo;
-import static org.testng.Assert.*;
-
-import appModule.SignInAction;
 import com.sun.org.glassfish.gmbal.Description;
 import org.apache.commons.logging.Log;
-
-import org.openqa.selenium.By;
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import utility.Constants;
-import org.apache.log4j.Logger;
-
-import org.apache.log4j.xml.DOMConfigurator;
 
 import java.util.concurrent.TimeUnit;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.Is.is;
+import static org.testng.Assert.assertTrue;
 
 
 /**
@@ -119,14 +115,13 @@ public class LogInLogOutTest  extends TestBase {
     @Description("Login and Log out test")
     @Test (priority = 7, alwaysRun = true)
     public void logInLogOut() throws Exception {
-        Log.info("Trying to login using incorrect password");
-       // SignInAction.Execute(driver, Constants.ValidUsername, Constants.ValidPasword);
-
-
-       // Log.info("Login Successfully");
-       // HomePage.avatar(driver).click();
-      //  HomePage.lnk_logOut(driver).click();
-      //  Log.info("Log out successfully");
+        Log.info("Log in - log out check ");
+        login.loginIntoTheApp(Constants.Username, Constants.Password);
+        login.sleep();
+        Log.info("Login successfully, PASS");
+        assertTrue(home.getTitle().contains("Featured Items Feed"));
+        home.logOut();
+        Log.info("Log out successfully, PASS");
 
     }
 
