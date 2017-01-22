@@ -1,0 +1,20 @@
+2017-01-16 20:26:57,212 INFO  [Log] Login Successfully 
+2017-01-16 20:27:19,040 INFO  [Log] Log out successfully 
+2017-01-16 20:27:34,080 INFO  [Log] Trying to log in with incorrect data 
+2017-01-16 20:28:22,442 INFO  [Log] Login Successfully 
+2017-01-16 20:28:27,611 INFO  [Log] Log out successfully 
+2017-01-16 20:28:40,788 INFO  [Log] Trying to log in with incorrect data 
+2017-01-16 20:28:43,668 INFO  [Log] Incorrect username or password 
+2017-01-22 14:41:09,526 INFO  [Log] User logs in successfully 
+2017-01-22 16:07:22,855 INFO  [Log] Login button is disabled 
+2017-01-22 16:11:11,812 INFO  [Log] Login button is disabled 
+2017-01-22 16:40:15,799 INFO  [Log] Trying to login using incorrect username format 
+2017-01-22 16:40:59,146 INFO  [Log] Trying to login using incorrect username format 
+2017-01-22 16:41:45,319 INFO  [Log] Trying to login using incorrect username format 
+2017-01-22 16:41:52,166 INFO  [Log] The email address is not valid or in the wrong format, PASS 
+2017-01-22 17:15:46,554 INFO  [Log] Trying to login using incorrect username 
+2017-01-22 17:16:58,192 INFO  [Log] Trying to login using incorrect username 
+2017-01-22 17:17:47,695 INFO  [Log] Trying to login using incorrect username 
+2017-01-22 17:17:50,340 INFO  [Log] Incorrect login or password. , PASS 
+2017-01-22 17:19:59,482 INFO  [Log] Trying to login using incorrect password 
+2017-01-22 17:20:04,597 INFO  [Log] Incorrect password. , PASS 
