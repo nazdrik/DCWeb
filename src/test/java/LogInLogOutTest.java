@@ -39,7 +39,7 @@ public class LogInLogOutTest  extends TestBase {
     @Description("Enter correct data")
     @Test (priority = 1, alwaysRun = true)
     public void loginTest(){
-
+        Log.info("Trying to login with correct credentials");
         login.loginIntoTheApp(Constants.Username, Constants.Password);
         login.sleep();
         assertTrue(home.getTitle().contains("Featured Items Feed"));

@@ -24,3 +24,21 @@
 2017-01-22 17:52:09,675 INFO  [Log] Log in - log out check  
 2017-01-22 17:52:16,960 INFO  [Log] Login successfully, PASS 
 2017-01-22 17:52:32,745 INFO  [Log] Log out successfully, PASS 
+2017-01-23 20:51:06,604 INFO  [Log] Trying to login with correct credentials 
+2017-01-23 20:51:26,990 INFO  [Log] User logs in successfully, PASS 
+2017-01-23 20:51:40,335 INFO  [Log] Trying to login using only login 
+2017-01-23 20:51:47,781 INFO  [Log] Login button is disabled, PASS 
+2017-01-23 20:52:04,621 INFO  [Log] Trying to login using only password 
+2017-01-23 20:52:11,205 INFO  [Log] Login button is disabled, PASS 
+2017-01-23 20:52:26,546 INFO  [Log] Trying to login using incorrect username format 
+2017-01-23 20:52:33,485 INFO  [Log] The email address is not valid or in the wrong format, PASS 
+2017-01-23 20:52:47,535 INFO  [Log] Trying to login using incorrect username 
+2017-01-23 20:52:50,877 INFO  [Log] Incorrect login , PASS 
+2017-01-23 20:53:04,742 INFO  [Log] Trying to login using incorrect password 
+2017-01-23 20:53:07,399 INFO  [Log] Incorrect password. , PASS 
+2017-01-23 20:53:21,256 INFO  [Log] Log in - log out check  
+2017-01-23 20:53:29,000 INFO  [Log] Login successfully, PASS 
+2017-01-23 20:53:29,669 INFO  [Log] Log out successfully, PASS 
+2017-01-23 20:55:04,823 INFO  [Log] Log in - log out check  
+2017-01-23 20:55:12,218 INFO  [Log] Login successfully, PASS 
+2017-01-23 20:55:30,706 INFO  [Log] Log out successfully, PASS 
