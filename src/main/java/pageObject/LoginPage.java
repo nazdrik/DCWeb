@@ -1,11 +1,7 @@
 package pageObject;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import static org.openqa.selenium.By.xpath;
 
 /**
  * Created by nazdrik on 14.01.2017 at 18:01.
@@ -56,6 +52,10 @@ public class LoginPage extends AbstractPage{
 
     public Boolean loginButtonIsDisabled(){
        return loginButton.isDisplayed();
+    }
+
+    public void clickForgotPasswordLink(){
+        forgotPasswordLink.click();
     }
 
     public void loginIntoTheApp(String login, String password){

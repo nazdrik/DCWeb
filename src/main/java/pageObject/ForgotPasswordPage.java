@@ -17,6 +17,12 @@ public class ForgotPasswordPage extends AbstractPage {
     @FindBy(className = "login-link")
     private WebElement loginLink;
 
+    @FindBy(className = "toast-success")
+    private WebElement popupSuccess;
+
+    @FindBy(className = "toast-error")
+    private WebElement popupError;
+
     public void enterEmail(String email) {
         emailAddress.sendKeys(email);
     }
@@ -27,6 +33,14 @@ public class ForgotPasswordPage extends AbstractPage {
 
     public void clickLoginButton(){
         loginLink.click();
+    }
+
+    public Boolean getSuccessMessage(){
+        return popupSuccess.isDisplayed();
+    }
+
+    public Boolean getPopupErrorMessage(){
+        return  popupError.isDisplayed();
     }
 
     public void resertPassword(String email){
